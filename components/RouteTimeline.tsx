@@ -98,7 +98,7 @@ export const RouteTimeline: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="h-px bg-gray-900 w-full mb-12"></div>
         <p className="text-gray-600 font-medium text-center">
-          Starting at 9:30 AM — Meeting at Tate Modern main entrance.
+          Starting at 8 AM — Meeting at Tate Modern main entrance.
         </p>
       </div>
     </section>

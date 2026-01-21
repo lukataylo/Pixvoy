@@ -13,8 +13,8 @@ export const DetailsSection: React.FC = () => {
                 <svg className="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               </div>
               <div>
-                <h4 className="text-xl font-bold text-black mb-1">2.5 - 3 Hours</h4>
-                <p className="text-gray-500">Comprehensive walk including a social debrief at a nearby cafe.</p>
+                <h4 className="text-xl font-bold text-black mb-1">1 Hour</h4>
+                <p className="text-gray-500">A focused walk through London's most photogenic spots.</p>
               </div>
             </div>
             <div className="flex gap-8 border-b border-gray-200 pb-8">
@@ -32,7 +32,7 @@ export const DetailsSection: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-xl font-bold text-black mb-1">Tate Modern</h4>
-                <p className="text-gray-500">Meeting point at the main entrance. Sessions start at 9:30am or 4pm for optimal light.</p>
+                <p className="text-gray-500">Meeting point at the main entrance. Sessions start at 8am for optimal light.</p>
               </div>
             </div>
           </div>

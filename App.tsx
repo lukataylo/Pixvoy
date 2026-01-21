@@ -39,7 +39,7 @@ const App: React.FC = () => {
           <div className="max-w-4xl mx-auto space-y-10 text-center">
             <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-gray-400">The Walk</h2>
             <p className="text-4xl md:text-7xl font-bold leading-[1.1] tracking-tight">
-              A curated 2.5-hour journey through the heart of the capital.
+              A curated 1-hour journey through the heart of the capital.
             </p>
             <p className="text-xl md:text-2xl text-gray-500 max-w-2xl mx-auto font-medium leading-relaxed">
               Explore the perfect blend of industrial textures and classical grandeur while mastering the lens always in your pocket.
