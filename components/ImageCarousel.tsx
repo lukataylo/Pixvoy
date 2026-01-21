@@ -6,31 +6,31 @@ const CARDS = [
     title: "The Industrial Soul",
     location: "Tate Modern",
     description: "Start at the heart of London's art scene, capturing brutalist lines and industrial textures.",
-    url: "https://images.unsplash.com/photo-1541819660-394870564e9e?auto=format&fit=crop&q=80&w=1200"
+    url: "/images/tate-modern.png"
   },
   {
     title: "The Silver Line",
     location: "Millennium Bridge",
     description: "Master leading lines and perfect symmetry as we cross the Thames.",
-    url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200"
+    url: "/images/millennium-bridge.jpg"
   },
   {
     title: "Golden Hour Glow",
     location: "St Paul's Cathedral",
     description: "Learn to work with complex light and grand historic architecture.",
-    url: "https://images.unsplash.com/photo-1508240561542-bb9843657599?auto=format&fit=crop&q=80&w=1200"
+    url: "/images/st-pauls.jpg"
   },
   {
     title: "Minimalist Geometry",
     location: "Bloomberg Arcade",
     description: "Discover the hidden rhythms of modern glass and bronze facades.",
-    url: "https://images.unsplash.com/photo-1549480111-e6f7779f4ca3?auto=format&fit=crop&q=80&w=1200"
+    url: "/images/bloomberg.jpg"
   },
   {
     title: "Historic Junctions",
     location: "Bank & Royal Exchange",
     description: "Finish at the iconic financial hub, capturing street photography in the twilight.",
-    url: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&q=80&w=1200"
+    url: "/images/bank-royal-exchange.jpg"
   }
 ];
 

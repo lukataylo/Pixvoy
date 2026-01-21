@@ -2,34 +2,34 @@
 import React, { useRef } from 'react';
 
 const STOPS = [
-  { 
-    name: "Tate Modern", 
+  {
+    name: "Tate Modern",
     desc: "Industrial textures and the iconic brick Switch House architecture.",
-    url: "https://images.unsplash.com/photo-1541819660-394870564e9e?auto=format&fit=crop&q=80&w=1200", // Matches input_file_3 (Brick building)
+    url: "/images/tate-modern.png",
     label: "Stop 01"
   },
-  { 
-    name: "Millennium Bridge", 
+  {
+    name: "Millennium Bridge",
     desc: "Capturing leading lines and the silver walkway towards the Thames.",
-    url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200", // Matches input_file_1 (Bridge view)
+    url: "/images/millennium-bridge.jpg",
     label: "Stop 02"
   },
-  { 
-    name: "St Paul's Reflection", 
+  {
+    name: "St Paul's Reflection",
     desc: "The perfect shot: a mirror reflection of the grand cathedral dome.",
-    url: "https://images.unsplash.com/photo-1508240561542-bb9843657599?auto=format&fit=crop&q=80&w=1200", // Matches input_file_4 (Reflection)
+    url: "/images/st-pauls.jpg",
     label: "Stop 03"
   },
-  { 
-    name: "Bloomberg Arcade", 
+  {
+    name: "Bloomberg Arcade",
     desc: "Modern rhythmic geometry and bronze-finned vertical architecture.",
-    url: "https://images.unsplash.com/photo-1549480111-e6f7779f4ca3?auto=format&fit=crop&q=80&w=1200", // Matches input_file_0 (Bronze pillars)
+    url: "/images/bloomberg.jpg",
     label: "Stop 04"
   },
-  { 
-    name: "Bank Junction", 
+  {
+    name: "Bank Junction",
     desc: "The classical Royal Exchange meeting the city's modern glass giants.",
-    url: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&q=80&w=1200", // Matches input_file_2 (Bank & Skyscrapers)
+    url: "/images/bank-royal-exchange.jpg",
     label: "Stop 05"
   }
 ];
@@ -77,7 +77,7 @@ export const RouteTimeline: React.FC = () => {
               <img 
                 src={stop.url} 
                 alt={stop.name}
-                className="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 ease-out scale-105 group-hover:scale-100"
+                className="absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-out scale-105 group-hover:scale-100"
               />
               <div className="absolute top-10 left-10">
                 <span className="px-6 py-2 rounded-full bg-white/10 apple-blur border border-white/20 text-white font-bold tracking-widest text-xs uppercase">

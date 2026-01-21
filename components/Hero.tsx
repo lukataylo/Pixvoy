@@ -6,7 +6,7 @@ export const Hero: React.FC = () => {
     <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden bg-black">
       <div className="absolute inset-0 opacity-40">
         <img 
-          src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=2000" 
+          src="/images/millennium-bridge.jpg" 
           alt="London Skyline" 
           className="w-full h-full object-cover"
         />
