@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
         <div className="hidden md:flex items-center gap-10 text-[10px] font-bold tracking-[0.2em] uppercase text-gray-400">
           <a href="#route" className="hover:text-white transition-colors">The Route</a>
           <a href="#details" className="hover:text-white transition-colors">Details</a>
-          <a href="#details" className="text-white bg-blue-600 px-6 py-2 rounded-full hover:bg-blue-500 transition-colors">Book Now</a>
+          <a href="https://lu.ma/l0on2ow2" target="_blank" rel="noopener noreferrer" className="text-white bg-blue-600 px-6 py-2 rounded-full hover:bg-blue-500 transition-colors">Book Now</a>
         </div>
 
         <button className="md:hidden text-white" aria-label="Menu">

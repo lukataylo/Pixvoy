@@ -23,9 +23,9 @@ export const Hero: React.FC = () => {
           Master the lens that's always in your pocket. Join a curated journey through London's visual icons.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-          <button className="bg-white text-black px-10 py-4 rounded-full font-semibold hover:bg-gray-200 transition-colors w-full md:w-auto">
+          <a href="https://lu.ma/l0on2ow2" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-10 py-4 rounded-full font-semibold hover:bg-gray-200 transition-colors w-full md:w-auto">
             Book Session
-          </button>
+          </a>
           <a href="#experience" className="text-blue-400 flex items-center gap-2 font-medium hover:underline">
             Watch the story 
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" /></svg>

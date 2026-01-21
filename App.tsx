@@ -27,9 +27,9 @@ const App: React.FC = () => {
             <span className="text-gray-500">Differently.</span>
           </h1>
           <div className="flex flex-col items-center gap-8">
-            <button className="bg-white text-black px-12 py-5 rounded-full font-semibold text-xl hover:scale-105 transition-transform">
+            <a href="https://lu.ma/l0on2ow2" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-12 py-5 rounded-full font-semibold text-xl hover:scale-105 transition-transform">
               Book Your Walk
-            </button>
+            </a>
             <p className="text-gray-500 text-sm tracking-widest uppercase font-medium">Limited to 8-12 spots per session</p>
           </div>
         </section>
@@ -63,9 +63,9 @@ const App: React.FC = () => {
             </svg>
           </div>
           <h2 className="text-5xl md:text-8xl font-bold tracking-tighter mb-12">Ready to shoot?</h2>
-          <button className="bg-white text-black px-12 py-5 rounded-full font-semibold text-xl hover:scale-105 transition-transform">
+          <a href="https://lu.ma/l0on2ow2" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-12 py-5 rounded-full font-semibold text-xl hover:scale-105 transition-transform">
             Book Next Session
-          </button>
+          </a>
         </section>
       </main>
 
